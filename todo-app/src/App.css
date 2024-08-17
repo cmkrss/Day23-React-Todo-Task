@@ -1,0 +1,63 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.filter-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.todo-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  width: 300px;
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-header button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
