@@ -26,7 +26,4 @@ Open your terminal and run the following command to clone the repository:
 
 ```bash
 git clone https://github.com/your-username/todo-list-app.git
-cd todo-list-app
-npm install
-npm start / npm run dev
 
