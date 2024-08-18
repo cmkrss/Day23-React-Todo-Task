@@ -41,6 +41,7 @@
 }
 
 .todo-card {
+  margin: 0;
   background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -55,9 +56,67 @@
   margin-bottom: 10px;
 }
 
-.todo-header button {
-  background: none;
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Ensure spacing below */
+}
+
+.todo-container .todo-header {
+  margin: 0;
+  /* Align to the left end of the container */
+  text-align: left;
+}
+
+.status-filter {
+  display: flex;
+  align-items: center;
+  /* Align to the right end of the container */
+  text-align: right;
+}
+
+.status-filter h3 {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.status-filter select {
+  padding: 5px;
+}
+
+/* Additional styling for buttons */
+.btn {
+  padding: 10px;
   border: none;
-  color: #007bff;
+  border-radius: 4px;
   cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-green {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-red {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-toggle {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
